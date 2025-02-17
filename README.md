@@ -6,7 +6,7 @@ The bot has followimg cmds:
 
 - /inventory : Updates the inventory. Attach an excel file with columns **msku**, **qty**.
 
-- /sales: Update sales records and reduce inventory, Add sales Attach excel file with  columns **sku**, **msku**, **sold_on_platform**, **qty**, returns an excel file containing **msku** whose **qty** is negative after this update.
+- /sales: Update sales records and reduce inventory, While running this cmd;  attach an excel file with  columns **sku**, **msku**, **sold_on_platform**, **qty**, returns an excel file containing **msku** whose **qty** is negative after this update.
 
 - /paired-sales: Update paired sales record and inventory. Attach excel file with columns **sku1**, **sku2**, **msku1**, **msku2**, **qty**, **sold_on_platform**, returns **msku** whose qty is negative after this update.
 
@@ -31,6 +31,8 @@ Only 2 records
   - qty 
   - monthly_sales
 
+Used to check if invetory is full and `popualar products` chart.
+
 2. SKU_SOLD_ON (a new row for same sku but different platform)
   - sku1
   - sku2: can be none
@@ -40,4 +42,4 @@ Only 2 records
   - qty
   - monthly_sales
 
-
+Charts made with this record tells you which products are popular in which platforms. Maybe also add a zip code, for zip code based analysis.
