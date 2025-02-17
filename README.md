@@ -4,11 +4,17 @@ The bot has followimg cmds:
 
 - /negative: returns excel file with **msku** whose quantity is negative. 
 
-- /inventory : Updates the inventory. When you run this cmd; attach an excel file with columns **msku**, **qty**.
+- /inventory : Updates the inventory. 
 
-- /sales: Update sales records and reduce inventory, When you run this cmd;  attach an excel file with  columns **sku**, **msku**, **sold_on_platform**, **qty**, returns an excel file containing **msku** whose **qty** is negative after this update.
+When you run this cmd; attach an excel file with columns **msku**, **qty**.
 
-- /paired-sales: Update paired sales record and inventory. Attach excel file with columns **sku1**, **sku2**, **msku1**, **msku2**, **qty**, **sold_on_platform**, returns **msku** whose qty is negative after this update.
+- /sales: Update sales records and reduce inventory. 
+
+When you run this cmd;  attach an excel file with  columns **sku**, **msku**, **sold_on_platform**, **qty**, returns an excel file containing **msku** whose **qty** is negative after this update.
+
+- /paired-sales: Update paired sales record and inventory. 
+
+When you rin this cmd, attach an excel file with columns **sku1**, **sku2**, **msku1**, **msku2**, **qty**, **sold_on_platform**, returns **msku** whose qty is negative after this update.
 
 # Starting-Up
 
