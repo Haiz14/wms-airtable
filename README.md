@@ -32,8 +32,10 @@ Only 2 records
   - monthly_sales
 
 2. SKU_SOLD_ON (a new row for same sku but different platform)
-  - sku
-  - msku
+  - sku1
+  - sku2: can be none
+  - msku1
+  - msku2: can be none
   - sold_on_platform
   - qty
   - monthly_sales
