@@ -2,9 +2,9 @@ Inventory management and visualisations via airtable and discord.
 
 The bot has followimg cmds:
 
-- /negative: returns **msku** whose quantity is negative.
+- /negative: returns excel file with **msku** whose quantity is negative. 
 
-- /inventory : Updates the inventory. Attach an excel file with columns **msku**, **qty**.
+- /inventory : Updates the inventory. While running this cmd; attach an excel file with columns **msku**, **qty**.
 
 - /sales: Update sales records and reduce inventory, While running this cmd;  attach an excel file with  columns **sku**, **msku**, **sold_on_platform**, **qty**, returns an excel file containing **msku** whose **qty** is negative after this update.
 
